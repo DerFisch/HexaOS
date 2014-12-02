@@ -1,5 +1,5 @@
 local files = {
-	["src/updater.lua"] = "hexupdate",
+	["inst.lua"] = "hexupdate",
 	["src/startup.lua"] = "startup",
 	["src/hexa/init.lua"] = ".hexa/init",
 	["src/hexa/hexa.lua"] = ".hexa/hexa",
