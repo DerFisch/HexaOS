@@ -10,8 +10,8 @@ if name == file.readLine() then -- i'll fix
 write("Password: ")
 local pass = read("*")
 file2 = fs.open("/disk/data/.pass","r")
-file.readLine()
-if pass == file.readLine() then
+file2.readLine()
+if pass == file.readLine2() then
 print("Correct!")
 end
 end
