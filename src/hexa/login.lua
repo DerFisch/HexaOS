@@ -11,7 +11,7 @@ write("Password: ")
 local pass = read("*")
 file2 = fs.open("/disk/data/.pass","r")
 file2.readLine()
-if pass == file.readLine2() then
+if pass == file2.readLine() then
 print("Correct!")
 end
 end
